@@ -6,8 +6,14 @@
 body {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    width: 100%; 
-   width: 100vw;
+     width: 100vw;
+     margin: auto;
+}
+.main-wrap {
+    display: flex;
+    flex-direction: column;
+    width: 1920px;
+    margin: auto;
 }
 .sec-1{
     border-top: 5px solid white;
@@ -117,8 +123,8 @@ body {
     border : 1px solid #FFFFFF;
     margin-left: -50px;
     color: white;
-    left: 122px;
     top: 431px;
+    left: 186px;
     padding-left: 17px;
     padding-top: 15px;
     border-radius: 3px;
@@ -158,6 +164,8 @@ body {
 }
 .sec-2 .active {
     clear: both;
+    bottom: -287px;
+    right: 938px;
 }
 .sec-2 h1 {
     font-family: 'Lato light';
@@ -213,7 +221,7 @@ body {
     border : 1px solid #FFFFFF;
     margin-left: -50px;
     color: white;
-    right: 172px;
+    right: 108px;
     top: 430px;
     border-radius: 3px;
     padding-top: 16px;
@@ -227,13 +235,203 @@ body {
 .sec-2 .active {
     position: absolute;
     display: block;
-    bottom: -291px;
-    right: 52%;
-    transform: translateX(50%); 
+    bottom: -287px;
+    right: 938px;
 }
 .sec-2 .active img{
-    margin-right: 12px;
+    margin-right: 10px;
 }
 .sec-2 .active img:hover{
 background-image: url(../images/active.png);
 }
+
+
+
+
+
+/*******section 3 ************/ 
+
+
+
+.sec-3 {
+    width: 100%;
+    background-color: #ECF0F1;
+    padding-top: 95px;
+    padding-left: 372px;
+}
+.sec-3 .display:hover > .info ,.sec-3 .display:hover > .buttons{
+    background-color: #2C3E50;
+    
+}
+.sec-3 .display:hover > .info .name ,
+.sec-3 .display:hover > .info .price
+{
+    color: #FFFFFF;
+}
+.sec-3 .featured
+{
+    margin-bottom: 45px;
+}
+.sec-3 .featured .text{
+    display: inline-block;
+    
+}
+.sec-3 .featured .text .black{
+    font-family: 'Lato Black';
+    font-size: 36px;
+    line-height: 33px;
+    color: #34495E;
+    letter-spacing: 0.3px;
+    margin-right: 6px;
+}
+.sec-3 .featured .text .light{
+    font-family: 'Lato Light';
+    font-size: 36px;
+    line-height: 33px;
+    color: #34495E;
+    letter-spacing: 0.3px;
+}
+
+.sec-3 .featured .text span{
+    font-family: 'Lato Black';
+    font-size: 36;
+    line-height: 33;
+    color: #34495E;
+}
+.sec-3 .featured .arrows {
+    display: inline-block;
+    padding-left: 788px;
+}
+.sec-3 .featured .arrows span {
+    border: 1px solid #CDD9E1;
+    background-color: #FFFFFF;
+    display: inline-block;
+    font-size: 24px;
+    padding-top: 8px;
+    padding-right: 9px;
+    padding-bottom: -1px;
+    padding-left: 12px;
+    border-radius: 12px;
+    color: #A1B1BC;
+    
+}
+.sec-3 .featured .arrows .left {
+    margin-right: 7px;
+}
+
+.sec-3 .product {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2px;
+    
+}
+.sec-3 .product .display {
+    margin-right: 30px;
+
+}
+.sec-3 .product .display:last-child {
+    margin-right: 0px;
+}
+
+.sec-3 .product .image {
+    width:270px ;
+    height:370px ;
+    background-color: white;
+    border-radius: 2px;
+    border-bottom: 1px solid #E6E6E6;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+.sec-3 .product .info {
+    width: 270px;
+    border: 1px solid #E6E6E6;
+    background-color: white;
+    width: 270px;
+}
+
+.sec-3 .product .info .name {
+    font-family: 'Lato Bold';
+    font-style: bold;
+    font-size: 18px;
+    line-height: 33px;
+    color: #2C3E50;
+    display: block;
+    margin-top: 10px;
+    margin-left: 22px;
+    letter-spacing: 0.6px;
+}
+.sec-3 .product .info .rate {
+    margin-left: 22px;
+    font-size: 12px;
+    display: block;
+    margin-top: 10px;
+}
+.sec-3 .product .info .rate i {
+    color: #1ABC9C;
+    margin-right: -3px;
+}
+.sec-3 .product .info .rate #uncheck {
+    color: #A1B1BC;
+    font-size: 12px;
+}
+.sec-3 .product .info .price {
+    font-family: 'Lato Black';
+    font-size: 20px;
+    line-height: 33px;
+    color: #2C3E50;
+    display: block;
+    margin-left: 21px;
+    margin-top: 9px;
+    margin-bottom: 12px;
+}
+.sec-3 .product .buttons {
+    padding-left: 22px;
+    display: flex;
+    width: 270px;
+    padding-top: 19px;
+    background-color: white;
+    padding-bottom: 22px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border: 1px solid #E6E6E6;
+}
+
+.sec-3 .product .buttons div {
+    padding-left: 9px;
+    padding-right: 0.9px;
+    padding-top: 5.5px;
+    padding-bottom: 6.5px;
+    background-color: #A1B1BC;
+    border-radius: 5px;
+    color: white;
+}
+
+.sec-3 .product .buttons div i {
+    font-size: 13px;
+}
+.sec-3 .product .buttons .add .icon {
+    margin-left: -2px;
+    font-size: 14px;
+}
+.sec-3 .product .buttons .add 
+{
+    float: left;
+    margin-right: 16px;
+}
+.sec-3 .product .buttons div span {
+    letter-spacing: -0.5px;
+    padding-right: 10.9px;
+    
+}
+.sec-3 .product .buttons div:hover{
+    background-color: #1ABC9C;
+}
+
+.sec-3 .product .buttons .detail
+{
+    float: left;
+    padding-right: 0.9px;
+    padding-left: 14px;
+}
+
+
