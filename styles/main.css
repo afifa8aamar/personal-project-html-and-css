@@ -713,9 +713,14 @@ background-image: url(../images/active.png);
     padding-top: 95px;
     padding-left: 372px;
     padding-bottom: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 95px;
 }
-
+.sec-6 .wrap{
+    display: flex;
+    flex-direction: column;
+    width: 1920px;
+    margin: auto;
+}
 .sec-6 .featured
 {
     margin-bottom: 42px;
@@ -973,4 +978,206 @@ background-image: url(../images/active.png);
     float: left;
     padding-right: 0.9px;
     padding-left: 14px;
+}
+
+
+
+
+
+
+
+
+
+/************* section 7 ************/
+
+
+
+
+.sec-7 {
+    width: 100%;
+    padding-left: 372px;
+    margin-bottom: 100px;
+    background-color: #ECF0F1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 1920px;
+    margin: auto; 
+}
+
+.sec-7 .featured
+{
+    margin-bottom: 42px;
+}
+.sec-7 .featured .text{
+    display: inline-block;
+    
+}
+.sec-7 .featured .text .black{
+    font-family: 'Lato Black';
+    font-size: 36px;
+    line-height: 33px;
+    color: #34495E;
+    letter-spacing: 0.3px;
+    margin-right: 2px;
+}
+.sec-7 .featured .text .light{
+    font-family: 'Lato Light';
+    font-size: 36px;
+    line-height: 33px;
+    color: #34495E;
+    letter-spacing: 0.3px;
+}
+
+.sec-7 .featured .text span{
+    font-family: 'Lato Black';
+    font-size: 36px;
+    line-height: 33px;
+    color: #34495E;
+}
+.sec-7 .featured .arrows {
+    display: inline-block;
+    padding-left: 870px;
+}
+.sec-7 .featured .arrows span {
+    border: 1px solid #CDD9E1;
+    background-color: #FFFFFF;
+    display: inline-block;
+    font-size: 24px;
+    padding-top: 8px;
+    padding-right: 9px;
+    padding-bottom: -1px;
+    padding-left: 12px;
+    border-radius: 12px;
+    color: #A1B1BC;
+    
+}
+.sec-7 .featured .arrows .left {
+    margin-right: 7px;
+}
+.sec-7 .featured .arrows .left:hover{
+    background-color: #2C3E50;
+}
+.sec-7 .featured .arrows .right:hover{
+    background-color: #2C3E50;
+}
+.sec-7 .body {
+    display: flex;
+    flex-direction: column;
+    background-color: #ECF0F1;
+    position: relative;
+}
+.sec-7 .body .col-1, .sec-7 .body .col-2{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.sec-7 .body .blog {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-right: 30px;
+}
+.sec-7 .body .blog .icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    z-index: 2;
+    margin-top: -20px;
+}
+.sec-7 .body .blog .icons .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1px;
+}
+.sec-7 .body .blog .icons .icon:last-child{
+    margin-bottom: 0px;
+}
+.sec-7 .body .blog .icons .row-1 {
+    width: 40px;
+    height: 40px;
+    background-color: #1ABC9C;
+    color: white;
+    
+}
+.sec-7 .body .blog .icons .row-2 {
+    width: 40px;
+    height: 40px;
+    background-color: #3A3E4A;
+    color: white;
+}
+.sec-7 .body .blog .icons .row-3 {
+    width: 40px;
+    height: 40px;
+    background-color: #686D80;
+    color: white;
+
+}
+.sec-7 .body .blog .icons .hist {
+    width: 40px;
+    height: 71px;
+    background-color: #686D80;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.sec-7 .body .blog .icons .hist .day{
+    margin-top: -8px;
+}
+.sec-7 .body .blog .icons .hist .month{
+    font-size: 14px;
+    
+}
+.sec-7 .body .blog .image {
+    width: 260px;
+    height: 194px;
+    background-color:#CCCCCC; 
+    left: 0;
+    z-index: 1;
+}
+.sec-7 .body .blog .image img{
+    display: block;
+    z-index: 2;
+    padding-left: 252px;
+    padding-top: 21px;
+}
+.sec-7 .body .blog .right .background {
+    display: block;
+    background-color: white;
+    z-index: 2;
+    width: 270px;
+    height: 194px;
+    left:300px;
+}
+
+.sec-7 .body .blog .right .background h1 {
+    padding-top: 15.4px;
+    padding-left: 19px;
+    font-family: 'Lato';
+    font-style: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #2C3E50;
+}
+.sec-7 .body .blog .right .background .head {
+    font-family: 'Lato';
+    font-size: 15px;
+    line-height: 24px;
+    color: #2C3E50;
+    padding-left: 19px;
+}
+.sec-7 .body .blog .right .background .text {
+    font-family: 'Lato';
+    font-size: 15px;
+    line-height: 24px;
+    color: #A1B1BC;
+    padding-left: 19px;
+    padding-top: 10px;
 }
