@@ -1007,10 +1007,12 @@ background-image: url(../images/active.png);
     flex-direction: column;
     width: 1920px;
     margin: auto; 
+    padding-bottom: 60px;
 }
 
 .sec-7 .featured
 {
+    margin-top: 67px;
     margin-bottom: 42px;
 }
 .sec-7 .featured .text{
@@ -1069,7 +1071,6 @@ background-image: url(../images/active.png);
     display: flex;
     flex-direction: column;
     background-color: #ECF0F1;
-    position: relative;
 }
 .sec-7 .body .col-1, .sec-7 .body .col-2{
     display: flex;
@@ -1083,13 +1084,15 @@ background-image: url(../images/active.png);
     position: relative;
     margin-right: 30px;
 }
+
+
 .sec-7 .body .blog .icons {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
     z-index: 2;
-    margin-top: -20px;
+
 }
 .sec-7 .body .blog .icons .icon {
     display: flex;
@@ -1320,6 +1323,7 @@ margin: auto;
     flex-direction: row;
     padding-top: 87px;
     padding-right: 374px;
+    padding-bottom: 100px;
 }
 .sec-9 .col .head {
     margin-bottom: 42px;
