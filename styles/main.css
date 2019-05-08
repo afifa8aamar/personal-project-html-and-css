@@ -113,7 +113,11 @@ body {
 
 
 
-/*section 2 */ 
+/*************section 2 ************************************************/ 
+
+
+
+
 
 .sec-2 .left-link {
     display: block;
@@ -252,7 +256,7 @@ background-image: url(../images/active.png);
 
 
 
-/*******section 3 ************/ 
+/*******section 3 ***************************************************************/ 
 
 
 
@@ -445,7 +449,7 @@ background-image: url(../images/active.png);
 
 
 
-/*********** sec-4 *****************/
+/*********** sec-4 ********************************************************/
 
 .sec-4 {
     border: 1px solid #DFE8EA;
@@ -527,7 +531,7 @@ background-image: url(../images/active.png);
 
 
 
-/******** section 5 *********/
+/******** section 5 ************************************************************/
 
 
 
@@ -704,7 +708,7 @@ background-image: url(../images/active.png);
 
 
 
-/************ section 6 ************/
+/************ section 6 *******************************************************************/
 
 
 
@@ -988,7 +992,7 @@ background-image: url(../images/active.png);
 
 
 
-/************* section 7 ************/
+/************* section 7 **************************************************************/
 
 
 
@@ -1180,4 +1184,87 @@ background-image: url(../images/active.png);
     color: #A1B1BC;
     padding-left: 19px;
     padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+/*************** section 8 ************************************************************/
+
+
+
+.sec-8{
+    background-image: url(../images/background.png);
+    width: 100%;
+    margin-bottom: 100px;
+    width: 1920px;
+    margin: auto; 
+    padding-left: 372px;
+    display: flex;
+    flex-direction: row;
+}
+.sec-8 .top{
+margin: auto;
+}
+.sec-8 .top h1{
+    font-family: 'Lato Light';
+    font-size:30px;
+    line-height: 20px;
+    color: white;
+    padding-top: 100px;
+    margin-left: 192px;
+    letter-spacing: 0.8px;
+    word-spacing: -4.02px;
+}
+
+.sec-8 .top .text{
+    margin: auto;
+    font-family: 'Lato';
+    font-size:14px;
+    line-height: 24px;
+    color: white;
+    width : 630px;
+}
+.sec-8 .top .more {
+    display: inline-block;
+    border: 1px solid #FFFFFF;
+    color: white;
+}
+.sec-8 .top .purchase{
+    display: inline-block;
+    background-color: #21C2F8;
+    color: white;
+}
+
+.sec-8 .right{
+    border: 1px solid white;
+    border-radius: 70px;
+    display: block;
+    width:  88px;
+    height: 60px;
+    color: white;
+    font-size: 31px;
+    margin-right: 206px;
+    margin-top: 308px;
+    padding-top: 11px;
+    padding-left: 19px;
+}
+.sec-8 .left{
+    margin-left: -172px;
+    margin-top: 308px;
+    padding-top: 11px;
+    padding-left: 19px;
+    font-size: 31px;
+    border: 1px solid white;
+    border-radius: 70px;
+    display: block;
+    width: 93px;
+    height: 60px;
+    color: white;
+    margin-right: 112px;
 }
