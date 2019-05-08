@@ -1212,28 +1212,54 @@ background-image: url(../images/active.png);
 margin: auto;
 }
 .sec-8 .top h1{
-    font-family: 'Lato Light';
+    font-family: 'Lato';
+    font-style: bold;
     font-size:30px;
     line-height: 20px;
     color: white;
     padding-top: 100px;
-    margin-left: 192px;
-    letter-spacing: 0.8px;
+    margin-left: 442px;
+    letter-spacing: 0.5px;
     word-spacing: -4.02px;
+    margin-bottom: 14px;
+}
+.sec-8 .top h1 .light {
+    font-family: 'Lato Light';
+    font-size:30px;
 }
 
 .sec-8 .top .text{
-    margin: auto;
     font-family: 'Lato';
-    font-size:14px;
+    font-size: 14px;
     line-height: 24px;
     color: white;
-    width : 630px;
+    width: 630px;
+    margin-left: 351px;
+    padding-right: 147px;
+}
+.sec-8 .top .text-2{
+    margin-left: 406px;
+    margin-bottom: 17px;
+}
+.sec-8 .top .buttons{
+    margin-left: 412px;
+    margin-bottom: 75px;
+}
+.sec-8 .top .button {
+    padding-top: 12px;
+    padding-bottom: 13px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Lato Black';
+    text-transform: uppercase;
+    
 }
 .sec-8 .top .more {
     display: inline-block;
     border: 1px solid #FFFFFF;
     color: white;
+    margin-right: 10px;
+    padding-right: 25px;
 }
 .sec-8 .top .purchase{
     display: inline-block;
@@ -1267,6 +1293,9 @@ margin: auto;
     height: 60px;
     color: white;
     margin-right: 112px;
+}
+.sec-8 .bottom .bottom{
+    margin-bottom: 43px;
 }
 
 
