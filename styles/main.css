@@ -1456,3 +1456,50 @@ margin: auto;
     display: inline-block;
     padding-right: 90px;
 }
+
+
+
+
+
+
+
+
+
+/*************section 10 ***************************************/
+
+
+
+.sec-10 {
+    background-color: #34495E;
+    width: 100%;
+    width: 1920px;
+    margin: auto; 
+    padding-left: 372px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 87px;
+    padding-right: 374px;
+    padding-bottom: 100px;
+}
+
+.sec-10 .up {
+    color: white;
+    font-family: 'Lato Light';
+    font-size: 72px;
+    line-height: 30px;
+    margin-right: 120px;
+}
+
+.sec-10 .up:last-child{
+    margin-right: 0px;
+    margin-top: 5px;
+}
+
+.sec-10 .down {
+    color: white;
+    font-family: 'Lato Bold';
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 5px;
+    margin-left: 83px;
+}
